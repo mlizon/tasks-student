@@ -1,0 +1,11 @@
+.filterImage {
+    max-width: 30%;
+}
+img {
+    max-width: 70%;
+    border: 1px solid black;
+}
+.filterList{
+    display: flex;
+    flex-wrap: wrap;
+}
