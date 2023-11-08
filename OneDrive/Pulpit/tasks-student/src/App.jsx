@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 import ShopCart from './components/ShopCart';
 import Main from './components/Main';
 import AppRoutes from './routes/AppRoutes';
+import Nav from './components/Nav';
 
 function App() {
 
@@ -85,9 +86,9 @@ function App() {
 
   return (
     <div className="App">
+      <Nav/>
       <AppRoutes  products={products} cartList={cartList} removeCart={removeCart} addToCart={addToCart}/>
-      {/* <Main products={products} cartList={cartList} removeCart={removeCart} addToCart={addToCart} /> */}
-
+      
     </div>
   );
 
